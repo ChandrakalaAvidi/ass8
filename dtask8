@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	int esum=0,osum=0,no=1;
+	while(no<=20)
+	{
+	if(no%2==0)
+	esum+=no;
+	else
+	osum+=no;
+	no++;
+	}
+	printf("\neven sum=%d",esum);
+	printf("\nodd sum=%d",osum);
+    printf("\ndifference=%d",esum-osum)  ;
+	getch();
+}
